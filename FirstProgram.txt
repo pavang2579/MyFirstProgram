@@ -1,1 +1,36 @@
 US Mortgage Loan default Predictions 
+
+## Mortgage defaulter Prediction
+
+Objective: To predict if a Mortgage borrower will default the loan.
+
+This project is aimed at developing an analytical model to classify a mortgage borrower if he/she will be
+delinquent/default on the repayments.
+
+We have utilized the relationship of past/existing borrowers, loan characteristics to identify the significant
+attributes that influence delinquency and use those to predict the probability of delinquency for future borrowers.
+
+The outcome of this analytical approach is the probability of a borrower being delinquent given their attributes
+which were identified as significant influencers during the modelling exercise.
+
+We have used the publicly available loan borrower and performance data from FannieMae.
+
+
+## Data-High level Inference
+
+2015 Q1 data set contains 4.5 lakh borrower information
+
+Delinquency status is stated in terms of no. of days since the last monthly payment.
+
+As rule of thumb we categorized borrowers who are delinquent for more than 90 days as
+defaulters.
+
+Approximately 1/3rd of borrowers delinquency status was unknown.
+
+We studied the characteristics of borrowers with unknown delinquency status and
+borrowers who were categorized as defaulters/Regular.
+
+The inferences made was used to assume the delinquency status.
+
+Following plots and graphs is categorized under 3 status (Regular, Defaulters,
+Unknown)
